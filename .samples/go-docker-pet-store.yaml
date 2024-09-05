@@ -1,0 +1,13 @@
+displayName: Go Pet Store Service
+description: Pet Store service implemented in Go and packaged as a docker image.
+componentType: service
+buildPack: docker
+repositoryUrl: https://github.com/wso2/choreo-samples/
+componentPath: /go-docker-pet-store
+thumbnailPath: /icons/go-docker-pet-store.svg
+documentationPath: /java-docker-pet-store/readme.md
+tags:
+  - Quick Deployable
+  - HTTP
+  - REST
+imageUrl: choreoanonymouspullable.azurecr.io/petstore:v0.9
