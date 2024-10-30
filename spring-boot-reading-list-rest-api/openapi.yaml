@@ -44,6 +44,15 @@ paths:
           description: Successful response
           content:
             application/json: {}
+    get:
+      tags:
+        - default
+      summary: Get all books
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
     delete:
       summary: Delete book by ID
       parameters:
