@@ -8,19 +8,6 @@ servers:
 - url: http://localhost:8080/api/v1
 paths:
   /users:
-    get:
-      tags:
-      - users
-      summary: List all the user store users
-      responses:
-        "200":
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/models.User'
     post:
       tags:
       - users
